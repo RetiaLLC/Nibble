@@ -1,6 +1,11 @@
 # Nibble
 Open Source Nibble Release
 
+Meshtastic Config (Compile your own firmware)
+RP2040: https://github.com/Sparkling-Ice/retia-boards/tree/main/variants/nibble_rp2040
+ESP32s3: https://github.com/Sparkling-Ice/retia-boards/tree/main/variants/nibble_esp32
+
+
 Follow the guide here:
 [![Play Video](https://img.youtube.com/vi/EOClEx3fuvY/maxresdefault.jpg)](https://www.youtube.com/watch?v=EOClEx3fuvY&t=1s)
 
