@@ -10,9 +10,9 @@ My talk on Meshtastic:
 
 Meshtastic Config (Compile your own firmware)
 
-RP2040: https://github.com/Sparkling-Ice/retia-boards/tree/main/variants/nibble_rp2040
+RP2040: https://github.com/Sparkling-Ice/retia-boards/tree/main/variants/retia-nibble/nibble-rp2040
 
-ESP32s3: https://github.com/Sparkling-Ice/retia-boards/tree/main/variants/nibble_esp32
+ESP32s3: https://github.com/Sparkling-Ice/retia-boards/tree/main/variants/retia-nibble/nibble-esp32
 
 # LoRa Nibble  
 
