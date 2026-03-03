@@ -5,6 +5,9 @@ Open Source Nibble Release
 Follow the guide here:
 [![Play Video](https://img.youtube.com/vi/EOClEx3fuvY/maxresdefault.jpg)](https://www.youtube.com/watch?v=EOClEx3fuvY&t=1s)
 
+My talk on Meshtastic:
+[![Play Video](https://img.youtube.com/vi/rvsCFDF0pyk/maxresdefault.jpg)](https://www.youtube.com/watch?v=rvsCFDF0pyk)
+
 Meshtastic Config (Compile your own firmware)
 
 RP2040: https://github.com/Sparkling-Ice/retia-boards/tree/main/variants/nibble_rp2040
