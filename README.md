@@ -38,8 +38,8 @@ Over **500 Nibbles have been made** worldwide, and the design is shared here so 
 - 1x Microcontroller (ESP32-S3 or RP2040)  
 - 1x RFM95 LoRa radio module (868 MHz or 915 MHz)  
 - 1x Spring antenna or U.FL connector and external antenna  
-- 1x 330 Ω resistor  
-- 2x 10k Ω resistors  
+- 1x 330 Ω resistor (1206 size) 
+- 2x 10k Ω resistors (1206 size)
 - 1x LED indicator  
 
 **Tools required:** soldering iron, solder, tweezers or pliers, and a laptop with USB-C cable.  
