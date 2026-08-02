@@ -8,11 +8,13 @@ Follow the assembly guide here:
 My talk on Meshtastic:
 [![Play Video](https://img.youtube.com/vi/rvsCFDF0pyk/maxresdefault.jpg)](https://www.youtube.com/watch?v=rvsCFDF0pyk)
 
-Meshtastic Config (Compile your own firmware)
+Meshtastic Config (compile your own firmware)
 
-RP2040: https://github.com/Sparkling-Ice/retia-boards/tree/main/variants/retia-nibble/nibble-rp2040
+The Nibble variants are merged upstream in Meshtastic; our pinned, both-LEDs build lane is **[RetiaLLC/Robo-Retia-Meshtastic](https://github.com/RetiaLLC/Robo-Retia-Meshtastic)**:
 
-ESP32s3: https://github.com/Sparkling-Ice/retia-boards/tree/main/variants/retia-nibble/nibble-esp32
+RP2040: env `nibble-rp2040` — workflow [`compile_rp2040_nibble.yaml`](https://github.com/RetiaLLC/Robo-Retia-Meshtastic/blob/main/.github/workflows/compile_rp2040_nibble.yaml)
+
+ESP32-S3: env `nibble-esp32` — workflow [`compile_opensource_nibble_esp32s3.yaml`](https://github.com/RetiaLLC/Robo-Retia-Meshtastic/blob/main/.github/workflows/compile_opensource_nibble_esp32s3.yaml)
 
 # LoRa Nibble  
 
@@ -62,17 +64,20 @@ Over **500 Nibbles have been made** worldwide, and the design is shared here so 
 ## Firmware Installation  
 
 ### ESP32-S3   
-1. Visit [nugget.dev](https://nugget.dev).  
+1. Visit the browser flasher at **[scriptkitty.sh](https://scriptkitty.sh)**.  
 2. Hold the **BOOT** (B) button while plugging in the board.  
 3. Select your Nibble from the device list.  
-4. Select the Nibble Meshtastic firmware from the list.  
+4. Select the Nibble Meshtastic firmware and flash.  
 5. Once uploaded, unplug and reconnect the board.  
 
 ### RP2040  
-1. Download the `.uf2` firmware from the Retia GitHub release page.  
+Easiest: use the browser flasher at **[scriptkitty.sh](https://scriptkitty.sh)** — pick the *Meshtastic — Open Source Nibble (RP2040)* card and it walks you through the drag-and-drop.
+
+Manual:
+1. Get the `.uf2` from **[scriptkitty.sh](https://scriptkitty.sh)** (Download `.uf2`), or from the canonical build release: **[Robo-Retia-Meshtastic releases](https://github.com/RetiaLLC/Robo-Retia-Meshtastic/releases/latest)** (`nibble-rp2040.zip` → extract the `.uf2`).  
 2. Hold the **BOOTSEL** button while plugging in the board.  
-3. The board mounts as a USB drive.  
-4. Drag and drop the `.uf2` file onto the drive. The board will reboot automatically.  
+3. The board mounts as a USB drive named `RPI-RP2`.  
+4. Drag and drop the `.uf2` onto the drive. The board reboots automatically — both the ear LED and the onboard NeoPixel blink a heartbeat.  
 
 ---
 
@@ -95,7 +100,8 @@ Over **500 Nibbles have been made** worldwide, and the design is shared here so 
 ---
 
 ## Community and Resources  
-- Flashing Firmware: [GitHub Releases](https://nugget.dev)  
+- Flashing firmware (browser flasher): [scriptkitty.sh](https://scriptkitty.sh)  
+- Firmware source & release builds: [RetiaLLC/Robo-Retia-Meshtastic](https://github.com/RetiaLLC/Robo-Retia-Meshtastic/releases/latest)  
 - Meshtastic documentation: [meshtastic.org](https://meshtastic.org)  
 - Community projects and support: [Retia Discord](https://discord.gg/cJHNswdSTz)
 
