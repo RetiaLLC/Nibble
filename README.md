@@ -10,11 +10,11 @@ My talk on Meshtastic:
 
 Meshtastic Config (compile your own firmware)
 
-The Nibble variants are merged upstream in Meshtastic; our pinned, both-LEDs build lane is **[RetiaLLC/Robo-Retia-Meshtastic](https://github.com/RetiaLLC/Robo-Retia-Meshtastic)**:
+The Nibble variants are merged upstream in Meshtastic; our pinned, both-LEDs build lane is **[RetiaLLC/ScriptkittyMeshtastic](https://github.com/RetiaLLC/ScriptkittyMeshtastic)**:
 
-RP2040: env `nibble-rp2040` — workflow [`compile_rp2040_nibble.yaml`](https://github.com/RetiaLLC/Robo-Retia-Meshtastic/blob/main/.github/workflows/compile_rp2040_nibble.yaml)
+RP2040: env `nibble-rp2040` — workflow [`compile_rp2040_nibble.yaml`](https://github.com/RetiaLLC/ScriptkittyMeshtastic/blob/main/.github/workflows/compile_rp2040_nibble.yaml)
 
-ESP32-S3: env `nibble-esp32` — workflow [`compile_opensource_nibble_esp32s3.yaml`](https://github.com/RetiaLLC/Robo-Retia-Meshtastic/blob/main/.github/workflows/compile_opensource_nibble_esp32s3.yaml)
+ESP32-S3: env `nibble-esp32` — workflow [`compile_opensource_nibble_esp32s3.yaml`](https://github.com/RetiaLLC/ScriptkittyMeshtastic/blob/main/.github/workflows/compile_opensource_nibble_esp32s3.yaml)
 
 # LoRa Nibble  
 
@@ -74,7 +74,7 @@ Over **500 Nibbles have been made** worldwide, and the design is shared here so 
 Easiest: use the browser flasher at **[scriptkitty.sh](https://scriptkitty.sh)** — pick the *Meshtastic — Open Source Nibble (RP2040)* card and it walks you through the drag-and-drop.
 
 Manual:
-1. Get the `.uf2` from **[scriptkitty.sh](https://scriptkitty.sh)** (Download `.uf2`), or from the canonical build release: **[Robo-Retia-Meshtastic releases](https://github.com/RetiaLLC/Robo-Retia-Meshtastic/releases/latest)** (`nibble-rp2040.zip` → extract the `.uf2`).  
+1. Get the `.uf2` from **[scriptkitty.sh](https://scriptkitty.sh)** (Download `.uf2`), or from the canonical build release: **[ScriptkittyMeshtastic releases](https://github.com/RetiaLLC/ScriptkittyMeshtastic/releases/latest)** (`nibble-rp2040.zip` → extract the `.uf2`).  
 2. Hold the **BOOTSEL** button while plugging in the board.  
 3. The board mounts as a USB drive named `RPI-RP2`.  
 4. Drag and drop the `.uf2` onto the drive. The board reboots automatically — both the ear LED and the onboard NeoPixel blink a heartbeat.  
@@ -101,7 +101,7 @@ Manual:
 
 ## Community and Resources  
 - Flashing firmware (browser flasher): [scriptkitty.sh](https://scriptkitty.sh)  
-- Firmware source & release builds: [RetiaLLC/Robo-Retia-Meshtastic](https://github.com/RetiaLLC/Robo-Retia-Meshtastic/releases/latest)  
+- Firmware source & release builds: [RetiaLLC/ScriptkittyMeshtastic](https://github.com/RetiaLLC/ScriptkittyMeshtastic/releases/latest)  
 - Meshtastic documentation: [meshtastic.org](https://meshtastic.org)  
 - Community projects and support: [Retia Discord](https://discord.gg/cJHNswdSTz)
 
