@@ -79,6 +79,8 @@ Manual:
 3. The board mounts as a USB drive named `RPI-RP2`.  
 4. Drag and drop the `.uf2` onto the drive. The board reboots automatically — both the ear LED and the onboard NeoPixel blink a heartbeat.  
 
+**Alternative firmware — MeshCore:** the RP2040 Nibble also runs **[MeshCore](https://github.com/meshcore-dev/MeshCore)**, a lightweight off-grid mesh. Flash it from **[scriptkitty.sh](https://scriptkitty.sh)** (the *MeshCore — Open Source Nibble (RP2040)* card), or grab the `.uf2` from the **[MeshCore release](https://github.com/RetiaLLC/Nibble/releases/tag/meshcore-rp2040-v1.16.0)** (hardware-verified — radio init + TX confirmed on a real Nibble). Same BOOTSEL drag-and-drop.  
+
 ---
 
 ## Meshtastic Setup  
